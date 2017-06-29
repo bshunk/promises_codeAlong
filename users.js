@@ -2,14 +2,14 @@
 {
   const userFactory = Object.create(null);
 
-  userFactory.getUsers = function(selectedUser) {
-    return new Promise ( function(resolve, reject) {
+  userFactory.getUsers = (selectedUser) => {
+    return new Promise ( (resolve, reject) => {
       $.ajax({
         url: "data/users.json"
       })
-      .done( function(data) {
+      .done( (data) => {
         let usersArr = data.users;
-        let userData = usersArr.filter( function(user) {
+        let userData = usersArr.filter( (user) => {
           return user.name === selectedUser
         })[0];
         resolve(userData);
