@@ -1,3 +1,4 @@
+"use strict";
 
 $("select").change( function() {
   console.log($(this).val());
@@ -10,7 +11,7 @@ $("select").change( function() {
 	})
 	.then( (dataFromGetFaves) => {
 		// do something with the data
-		SongFaves.DomStuff.listFaves(selectedUser, dataFromGetFaves)
+		SongFaves.DomStuff.listFaves(selectedUser, dataFromGetFaves);
 	})
 	.catch( (err) => {
 		console.log("Oops, there was an error:", err.statusText);
