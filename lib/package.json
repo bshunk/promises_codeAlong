@@ -23,5 +23,9 @@
     "matchdep": "^1.0.1",
     "watch": "^1.0.1",
     "jquery": "^3.2.1"
+  },
+  "dependencies": {
+    "grunt-contrib-sass": "^1.0.0",
+    "watch": "^1.0.2"
   }
 }
