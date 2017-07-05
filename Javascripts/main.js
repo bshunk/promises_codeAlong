@@ -1,5 +1,10 @@
 "use strict";
 
+let domStuff = require('./domStuff');
+let faves = require('./favorites');
+let users = require('./users');
+
+
 $("select").change( function() {
   console.log($(this).val());
   let selectedUser = $(this).val();
