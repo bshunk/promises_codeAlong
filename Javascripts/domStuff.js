@@ -1,4 +1,4 @@
-"use strict";
+'use strict';
 
 const domStuff = Object.create(null);
 let $favesContainer = $("#fave-songs");

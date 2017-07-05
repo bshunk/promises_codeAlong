@@ -19,10 +19,5 @@ let domStuff = require('./Javascripts/domStuff');
 }
 
 module.exports = favesFactory;
-// // 1 argument = no parenthesis
-// let myFunc = greeting => greeting;
-
-// // more than 1 arguemtn = parenthesis
-// let myFunc = (greeting, buckets) => greeting;
 
 
