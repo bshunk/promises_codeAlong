@@ -1,3 +1,5 @@
+"use strict";
+
 {
   const domStuff = Object.create(null);
   let $favesContainer = $("#fave-songs");
@@ -8,8 +10,8 @@
     faves.forEach( (song) => {
       $favesContainer.append(`<h4>"${song.title}" by ${song.artist}</h4>`);
     });
-  }
+  };
 
-  window.SongFaves = window.SongFaves || {}
+  window.SongFaves = window.SongFaves || {};
   window.SongFaves.DomStuff = domStuff;
 }

@@ -16,16 +16,13 @@
     "url": "https://github.com/nss-day-cohort-20/promises-101/issues"
   },
   "homepage": "https://github.com/nss-day-cohort-20/promises-101#readme",
-  "devDependencies": {
+  "dependencies": {
     "grunt": "~1.0.1",
     "grunt-contrib-jshint": "^1.0.0",
-    "grunt-contrib-watch": "^1.0.0",
-    "matchdep": "^1.0.1",
-    "watch": "^1.0.1",
-    "jquery": "^3.2.1"
-  },
-  "dependencies": {
     "grunt-contrib-sass": "^1.0.0",
-    "watch": "^1.0.2"
+    "grunt-contrib-watch": "^1.0.0",
+    "jquery": "^3.2.1",
+    "matchdep": "^1.0.1",
+    "watch": "^1.0.1"
   }
 }
