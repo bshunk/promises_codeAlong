@@ -1,6 +1,7 @@
 "use strict";
 
-{
+let domStuff = require('./Javascripts/domStuff');
+
   const favesFactory = Object.create(null);
 
 // Fat arrow functions, or "=>", means "function" in an ANONYMOUS FUNCTION ONLY
@@ -14,12 +15,10 @@
         // SongFaves.DomStuff.listFaves(user, data.songs)
       });
     });
-  };
   
-  window.SongFaves = window.SongFaves || {};
-  window.SongFaves.FavesFactory = favesFactory;
 }
 
+modules.exports = favesFactory;
 // // 1 argument = no parenthesis
 // let myFunc = greeting => greeting;
 
