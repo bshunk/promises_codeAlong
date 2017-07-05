@@ -11,7 +11,7 @@
       $favesContainer.append(`<h4>"${song.title}" by ${song.artist}</h4>`);
     });
   };
+};
+module.exports = domStuff;
 
-  window.SongFaves = window.SongFaves || {};
-  window.SongFaves.DomStuff = domStuff;
-}
+
