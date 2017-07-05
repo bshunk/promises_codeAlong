@@ -1,5 +1,7 @@
 "use strict";
 
+let domStuff = require('./Javascripts/domStuff');
+
 {
   const favesFactory = Object.create(null);
 
